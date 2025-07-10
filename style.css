@@ -108,3 +108,41 @@ header {
 .action .right img {
     border-radius: 48px;
 }
+
+.productive_users {
+    margin: 116px 130px;
+    background-color: #4E47FF10;
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+
+.productive_users h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.productive_users .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    margin-top: 40px;
+}
+
+.productive_users .content h1 {
+    font-family: inherit;
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.productive_users .content p {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: regular;
+    color: #00000050;
+    text-align: center;
+}
