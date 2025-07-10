@@ -72,3 +72,39 @@ header {
     border: none;
     border-radius: 10px;
 }
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    margin: 116px 130px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.action .left h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.action .left p {
+    font-size: 24px;
+    font-weight: regular;
+    margin: 23px 0;
+    color: #25243250
+}
+
+.action .left button {
+    padding: 12px 26px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.action .right img {
+    border-radius: 48px;
+}
