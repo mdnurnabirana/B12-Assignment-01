@@ -230,3 +230,44 @@ header {
     font-weight: normal;
     color: #25243250;
 }
+
+.extra {
+    margin: 116px 130px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    text-align: center;
+    padding: 71px 150px;
+}
+
+.extra h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    line-height: 120px;
+}
+
+.extra p {
+    color: #00000050;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.extra button {
+    padding: 12px 36px;
+    color: white;
+    background-color: #4E47FF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+
+.extra img {
+    border-radius: 48px;
+    margin-top: 20px;
+    width: 100%;
+}
