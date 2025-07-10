@@ -271,3 +271,70 @@ header {
     margin-top: 20px;
     width: 100%;
 }
+
+.contact {
+    margin: 116px 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+}
+
+.contact h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 97px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    padding: 20px 32px;
+    background-color: white;
+    border-radius: 10px;
+    width: 497px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact label {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+.contact textarea {
+    width: 497px;
+    padding: 20px 32px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    font-size: 18px
+}
+
+.contact textarea:placeholder-shown {
+    font-size: 18px;
+}
+
+.contact button {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    padding: 19px 0%;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    color: white;
+    font-weight: bold;
+    margin: 19px auto;
+    width: 100%;
+}
